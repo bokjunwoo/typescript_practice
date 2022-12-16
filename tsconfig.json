@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    // any타입이 의도치않게 발생하는 경우 에러를 띄어주는 설정 
+    "noImplicitAny": true,
+    // null, undefined 타입에 이상한 조작을 할 경우 에러를 띄어주는 설정
+    "strictNullChecks": true,
+  }
+}
